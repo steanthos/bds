@@ -1,0 +1,205 @@
+/*RESET and GLOBAL STYLES*/
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #eee;
+	font-family: 'Hind Madurai', helvetica, arial, sans;
+	min-height: 100vh;
+  width: 100%;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+p {
+  line-height: 1.5;
+  margin: 0.75em 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-family: 'Montserrat', helvetica, sans;
+}
+
+/*HEADER*/
+.navbar {
+	align-items: center;
+	background-color: #ddd;
+	display: flex;
+	justify-content: space-between;
+	padding: .5em 2em;
+	position: fixed;
+	z-index: 20;
+	width: 100%
+}
+.nav-logo {
+	padding: 0.5rem 0;
+	width: 6vh;
+}
+.nav-links {
+	align-items: center;
+	display: flex;
+}
+.nav-links li {
+	font-family: 'Alegreya Sans', helvetica, sans;
+	font-size: 0.9em;
+	font-weight: 700;
+	letter-spacing: .1em;
+	list-style: none;
+	padding: 1em;
+	text-transform: uppercase;
+}
+.nav-links li a {
+	color: #000;
+}
+.nav-links li a:hover {
+	color: #de3241;
+}
+/*FOOTER*/
+.anthos {
+	flex: 1 1 100%;
+	padding: 1.5rem;
+	text-align: center;
+}
+.anthos span {
+	border-top: 1px solid;
+	border-top-color: rgba(0, 0, 0, 0.4);
+	display: inline-block;
+  padding: 3rem 0 1.5rem;
+  width: 70%;
+}
+.footer {
+	align-items: flex-start;
+	background-color: #ddd;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	padding: 1em;
+}
+.footer-info {
+	font-size: 1.1rem;
+	line-height: 1.5;
+	padding: 2rem 0 3rem;
+	text-align: center;
+}
+.footer-links {
+  display: flex;
+  flex-direction: column;
+  padding-top: 4rem;
+}
+.footer-title {
+	font-size: 1.3rem;
+	font-weight: bold;
+}
+
+/*PRESENTATION*/
+.presentation{
+	align-items: center;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	padding: 10rem 1rem 5rem;
+}
+.presentation > div {
+	flex: 1 0 50%;
+}
+.presentation-title {
+	font-size: 4rem;
+	padding: 0 5rem 1rem;
+	text-align: right;
+}
+.presentation-title span {
+	font-size: 1.5rem;
+}
+.presentation-copy {
+	text-align: right;
+	font-size: 1.3rem;
+	padding: 0 5rem;
+}
+.presentation-img {
+	border-radius: 10px;
+	display: block;
+	flex: 1 1 50%;
+	height: auto;
+	margin: auto;
+	max-width: 550px;
+  width: 100%;
+}
+/*SLOGAN*/
+.slogan {
+	align-items: center;
+	background: #ddd;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-around;
+}
+.slogan h2, .slogan h3 {
+	background-color: #de3241;
+	border-radius: 20px;
+	color: #fff;
+	font-size: 3rem;
+	margin: 3.5rem 0rem 2rem;
+	padding: 1rem;
+	text-align: center;
+}
+.slogan h3 {
+	font-size: 2.3rem;
+	line-height: 2;
+	margin: 3rem 0;
+	text-align: center;
+	text-transform: uppercase;
+}
+.slogan h2:hover, .slogan h3:hover {
+	color: #000;
+	cursor: default;
+	transition: all 0.3s ease 0s;
+}
+
+/*SELLING*/
+.selling {
+	align-items: center;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: 3.5rem 2rem;
+}
+.house-box {
+	background: #fff;
+	border: 1px solid #666;
+	border-radius: 2px;
+	cursor: pointer;
+	flex: 0 0 23%;
+	margin: 2%;
+}
+.house-box:hover {
+	opacity: 0.6;
+	transition: .5s ease;
+}
+.house-pic {
+	height: auto;
+	width: 100%;
+}
+.house-box-title {
+	font-size: 1.2rem;
+	line-height: 1.5;
+	padding: 1em 0.4em;
+	text-align: center;
+	text-transform: uppercase;
+}
+.house-copy {
+	padding: 0 0.5em;
+}
+.house-copy p {
+	font-size: 1.1rem;
+}
+.house-spec {
+	align-items: center;
+	background: #eee;
+	font-size: 1.3rem;
+	font-weight: 700;
+	padding: 1rem;
+	text-align: center;
+}

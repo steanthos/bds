@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta name="description" content="BDS Immobilcasa, vendita immobili ed unità abitative">
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="/fonts/fontawesome-free-6.2.1-web/css/all.min.css">
+	<link rel="stylesheet" href="/css/main.css">
+	<title>BDS Immobilcasa</title>
+</head>
+<body>
+	<nav class="navbar">
+	<div class="logo-toggle">
+		<a href="/">
+			<img class="nav-logo" src="/images/logo.png" alt="">
+		</a>
+	<a class="nav-toggle"><i class="fa-solid fa-bars"></i>
+	</a>
+	</div>
+	
+		<ul class="nav-links header-links">
+			<li><a href="#in-vendita">In vendita</a></li>
+<li><a href="/contatti">Contatti</a></li>
+		</div>
+</nav>
+
+	<p style="padding-top: 10vh;">
+
+	CAPODIMONTE
+IN CONTESTO DI NUOVA REALIZZAZIONE DI SOLE 5 UNITA' ABITATIVE
+
+	A Capodimonte, di nuova realizzazione, vendesi appartamento al piano primo dotato di ampio giardino al piano terra. Possiede inoltre una scala esclusiva che collega la cantina e l'autorimessa. Possibilità di recuperi fiscali con sismabonus acquisti per un totale di 81.600 € in cinque anni.
+
+	prezzo + iva 4% 
+
+	Dalla seguente proposta sono escluse le spese notarili, le spese di allacciamento e di accatastamento (2500 €)
+
+</p>
+
+	<footer class="footer">
+	<div class="footer-info"><a href="/" class="footer-title">B.D.S. Immobilcasa SRL<a>
+		<p> Piazza Martiri della Libertà 8 - 25014 - Castenedolo (Bs)<p>030 2130886 - 348 002 3274 - <a href="mailto:boldori.geom.maurizio@virgilio.it">boldorifigo@boldori.com</a></p><p> P.I. e C.F. 03516540170 </p>
+	</div>
+	<nav>
+		<ul class="nav-links footer-links">
+			<li><a href="#in-vendita">In vendita</a></li>
+<li><a href="/contatti">Contatti</a></li>
+		</ul>
+	</nav>
+	<div class="anthos"><span>Creato da <a href="https://github.com/steanthos">ANTHOS</a></span></div>
+</footer>
+
+	<script type="text/javascript">
+  let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+
+</body>
+</html>
