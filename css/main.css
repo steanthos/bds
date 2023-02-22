@@ -374,7 +374,14 @@ h1, h2, h3, h4, h5, h6 {
 	padding: 2rem;
 }
 
+/*MEDIA QUERY*/
 @media only screen and (max-width: 1000px) {
+html {
+	max-width: 1000px;
+}
+.navbar {
+	max-width: 1000px;
+}
 .presentation {
 	padding: 6rem 0 4rem;
 }
