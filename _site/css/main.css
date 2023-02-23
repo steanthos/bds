@@ -99,7 +99,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .collaboratrici {
 	margin-top: 2rem;
-	text-align: left;
+	text-align: center;
 }
 .collaboratrici li {
 	display: inline-block;
@@ -376,13 +376,13 @@ h1, h2, h3, h4, h5, h6 {
 /*MEDIA QUERY*/
 @media only screen and (max-width: 1000px) {
 .presentation {
-	padding: 2rem 0 4rem;
+	padding: 2.5rem 0 4rem;
 }
 .presentation > div {
   flex: 1 1 100%;
-	}
+}
 .presentation-img {
-	max-width: 400px;
+	max-width: 330px;
 	flex: 1 1 100%;
 }
 .presentation-copy,
@@ -395,7 +395,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 .presentation-title {
 	font-size: 2rem;
-	padding: 0;
+	padding: 0 0 1rem;
 }
 .presentation-title span {
 	font-size: 1.3rem;
@@ -403,8 +403,14 @@ h1, h2, h3, h4, h5, h6 {
 .slogan {
 	padding: 1rem;
 }
+.slogan-title {
+	flex: 1 1 100%;
+}
+.slogan-contact {
+	flex: 1 1 100%;
+}
 .slogan h2 {
-	font-size: 1rem;
+	font-size: 1.5rem;
 }
 .slogan h3 {
 	font-size: 1rem;
@@ -428,12 +434,18 @@ h1, h2, h3, h4, h5, h6 {
 .contact-title {
 	font-size: 1.1rem;
 }
-.contact-numbers h3 {
+.contact-numbers div {
+	flex: 1 1 100%;
+}
+.contact-3 h3 {
 	font-size: 1rem;
 }
 .contact-numbers > div:nth-of-type(3) {
 	margin-top: 5%;
 }
+.contact-1 h3, .contact-2 h3 {
+	font-size: 1.5rem;
+} 
 .slideshow-titles {
 	margin-top: 4%;
 }
