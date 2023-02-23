@@ -31,7 +31,6 @@ h1, h2, h3, h4, h5, h6 {
 	background-color: #ddd;
 	display: flex;
 	justify-content: space-between;
-	max-width: inherit;
 	padding: .3em 2em;
 	width: 100%;
 	z-index: 20;
@@ -376,12 +375,6 @@ h1, h2, h3, h4, h5, h6 {
 
 /*MEDIA QUERY*/
 @media only screen and (max-width: 1000px) {
-html {
-	width: 100%;
-}
-.navbar {
-	max-width: 1000px;
-}
 .presentation {
 	padding: 2rem 0 4rem;
 }
