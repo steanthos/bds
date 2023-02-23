@@ -263,7 +263,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 2vh 0 0;
+	padding: 2vh 0 6vh;
 }
 .slideshow-titles {
 	align-items: center;
