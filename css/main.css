@@ -33,7 +33,6 @@ h1, h2, h3, h4, h5, h6 {
 	justify-content: space-between;
 	max-width: inherit;
 	padding: .3em 2em;
-	position: fixed;
 	width: 100%;
 	z-index: 20;
 }
@@ -113,7 +112,8 @@ h1, h2, h3, h4, h5, h6 {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: center;
-	padding: 8rem 1rem 5rem;
+	padding: 3rem 1rem 3rem;
+	width: 100%;
 }
 .presentation-text {
 	flex: 1 1 50%;
@@ -377,13 +377,13 @@ h1, h2, h3, h4, h5, h6 {
 /*MEDIA QUERY*/
 @media only screen and (max-width: 1000px) {
 html {
-	max-width: 1000px;
+	width: 100%;
 }
 .navbar {
 	max-width: 1000px;
 }
 .presentation {
-	padding: 6rem 0 4rem;
+	padding: 2rem 0 4rem;
 }
 .presentation > div {
   flex: 1 1 100%;
@@ -398,24 +398,24 @@ html {
 }
 .presentation-copy {
 	font-size: 1rem;
-	padding: 0 3rem 1rem;
+	padding: 0 2.3rem 1rem;
 }
 .presentation-title {
-	font-size: 2.5rem;
+	font-size: 2rem;
 	padding: 0;
 }
 .presentation-title span {
-	font-size: 1.7rem;
+	font-size: 1.3rem;
 }
 .slogan {
 	padding: 1rem;
 }
 .slogan h2 {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 .slogan h3 {
-	font-size: 1.2rem;
-	margin: 2rem 2rem 1rem;
+	font-size: 1rem;
+	margin: 1rem 0.7rem 1rem;
 }
 .phone {
 	padding: 0.5rem;
@@ -425,14 +425,18 @@ html {
 	margin: 4% 5%;
 	max-width: 400px;
 }
+.house-box-title {
+	font-size: 1rem;
+	padding: 0.7em 0.4em;
+}
 .selling {
 	padding: 2rem 1rem;
 }
 .contact-title {
-	font-size: 1.5rem;
+	font-size: 1.1rem;
 }
 .contact-numbers h3 {
-	font-size: 1.5rem;
+	font-size: 1rem;
 }
 .contact-numbers > div:nth-of-type(3) {
 	margin-top: 5%;
